@@ -1,15 +1,12 @@
 <template>
-  <footer>
-      footer
-  </footer>
+  <footer>footer</footer>
 </template>
 
 <script>
 export default {
-    name: 'MainFooter'
-}
+  name: "MainFooter",
+};
 </script>
 
 <style lang='scss' scoped>
-
 </style>

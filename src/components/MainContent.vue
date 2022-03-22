@@ -1,15 +1,19 @@
 <template>
   <main>
-      main
+    <MoreAboutSection />
   </main>
 </template>
 
 <script>
+import MoreAboutSection from "./MoreAboutSection.vue";
+
 export default {
-    name: 'MainContent'
-}
+  name: "MainContent",
+  components: {
+    MoreAboutSection,
+  },
+};
 </script>
 
 <style lang='scss' scoped>
-
 </style>

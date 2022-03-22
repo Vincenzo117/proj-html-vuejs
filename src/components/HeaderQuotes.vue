@@ -45,7 +45,7 @@ export default {
     @apply flex flex-col gap-5 w-full md:w-1/2 2xl:w-1/3 text-center md:text-left;
     .quote__title {
       font-family: "Nothing You Could Do", cursive;
-      @apply text-saffron text-[38px] font-semibold;
+      @apply text-saffron text-[38px] md:text-[42px] font-semibold;
     }
 
     .quote__text {

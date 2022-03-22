@@ -24,7 +24,7 @@ export default {
 
 <style lang="scss" scoped>
 .sale-widget {
-    @apply hidden md:block absolute z-20 right-3 top-24;
+    @apply hidden md:block absolute z-20 right-3 top-20;
 
     .widget__demos, .widget__on-sale {
         @apply w-11 h-11 p-1 bg-white text-scorpion flex flex-col justify-end items-center rounded  text-[10px];

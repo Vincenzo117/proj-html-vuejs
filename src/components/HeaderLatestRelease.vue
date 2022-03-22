@@ -32,20 +32,20 @@ export default {
 
 <style lang="scss" scoped>
 .latest-release-widget {
-    @apply px-10 pt-8 pb-6 bg-white relative md:absolute bottom-0 right-0  flex flex-wrap z-30 md:max-w-[400px];
+    @apply px-10 pt-8 pb-6 bg-white relative md:absolute bottom-0 right-0  flex flex-wrap z-30 md:max-w-[350px] lg:max-w-[480px];
     .widget__thumb{
-        @apply w-1/2;
+        @apply flex items-center w-1/2;
     }
     .widget__info {
         @apply w-1/2;
         .widget__title {
-            @apply text-[14px] font-serif font-semibold mb-2;
+            @apply text-[20px] md:text-[18px] lg:text-[20px] font-serif font-semibold mb-2;
         }
         .widget__author {
-            @apply text-[10px] uppercase font-bold text-saffron mb-3;
+            @apply text-[12px] uppercase font-bold text-saffron mb-3;
         }
         .widget__description {
-            @apply text-[10px] text-osloGray;
+            @apply text-[12px] text-osloGray;
         }
     }
     .widget__buy-options {  

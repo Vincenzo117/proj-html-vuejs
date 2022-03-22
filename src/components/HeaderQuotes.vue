@@ -39,7 +39,7 @@ export default {
 
 <style lang="scss" scoped>
 .header-quotes {
-  @apply px-10 sm:px-32 pt-7 pb-16 relative z-20 2xl:container 2xl:px-32 transition-all;
+  @apply px-10 sm:px-32 pt-10 pb-20 relative z-20 2xl:container 2xl:px-32 transition-all;
 
   .quote-card {
     @apply flex flex-col gap-5 w-full md:w-1/2 2xl:w-1/3 text-center md:text-left;

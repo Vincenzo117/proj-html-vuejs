@@ -22,7 +22,7 @@ export default {
     HeaderNavbar,
     HeaderQuotes,
     HeaderLatestRelease,
-    HeaderSaleWidget
+    HeaderSaleWidget,
   },
 };
 </script>
@@ -33,7 +33,7 @@ export default {
   @apply bg-center bg-cover relative;
 
   &:after {
-    @apply content-[''] absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b from-white/10 to-black  z-10;
+    @apply content-[''] absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b from-white/0 to-black  z-10;
   }
 
   &::before {

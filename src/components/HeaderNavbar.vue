@@ -1,5 +1,5 @@
 <template>
-  <div :class="['header-navbar' , mobileMenu ? 'mb-36' : '']">
+  <div :class="['header-navbar', mobileMenu ? 'mb-40 md:mb-0' : '']">
     <figure class="logo">
       <img :src="logoSrc" alt="" />
     </figure>
@@ -66,14 +66,14 @@ export default {
 
 <style lang='scss' scoped>
 .header-navbar {
-  @apply flex justify-between items-center gap-5 pl-2 pr-10 md:px-20 2xl:container relative z-20;
+  @apply flex justify-between items-center gap-5 pl-2 pr-10 md:pr-6 lg:px-20 2xl:container relative z-20;
 
   .logo {
     @apply h-24 aspect-square;
   }
 
   .navbar {
-    @apply h-24 text-white text-[12px] font-semibold hidden md:block;
+    @apply h-24 text-white text-[14px] font-semibold hidden md:block;
 
     .navbar__list {
       @apply h-9 flex gap-6;
@@ -106,7 +106,7 @@ export default {
       @apply text-center absolute top-0 right-1/2;
     }
     .navbar__list-item {
-      @apply text-[16px] hover:text-saffron transition-all;
+      @apply text-[16px] mb-2 hover:text-saffron transition-all;
 
       .navbar__item-anchor {
         &.active {

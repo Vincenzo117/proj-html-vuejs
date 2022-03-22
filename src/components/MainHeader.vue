@@ -5,6 +5,8 @@
     <HeaderQuotes />
 
     <HeaderLatestRelease />
+
+    <HeaderSaleWidget />
   </header>
 </template>
 
@@ -12,13 +14,15 @@
 import HeaderNavbar from "./HeaderNavbar.vue";
 import HeaderQuotes from "./HeaderQuotes";
 import HeaderLatestRelease from "./HeaderLatestRelease";
+import HeaderSaleWidget from "./HeaderSaleWidget";
 
 export default {
   name: "MainHeader",
   components: {
     HeaderNavbar,
     HeaderQuotes,
-    HeaderLatestRelease
+    HeaderLatestRelease,
+    HeaderSaleWidget
   },
 };
 </script>

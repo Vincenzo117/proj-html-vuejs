@@ -32,7 +32,7 @@ export default {
 
 <style lang="scss" scoped>
 .latest-release-widget {
-    @apply px-10 pt-8 pb-6 bg-white absolute bottom-0 right-0  flex flex-wrap z-30 max-w-[400px];
+    @apply px-10 pt-8 pb-6 bg-white relative md:absolute bottom-0 right-0  flex flex-wrap z-30 md:max-w-[400px];
     .widget__thumb{
         @apply w-1/2;
     }
@@ -49,7 +49,7 @@ export default {
         }
     }
     .widget__buy-options {  
-        @apply w-full flex items-center justify-between border-[1px] border-keppel rounded;
+        @apply w-full flex items-center justify-between border-[1px] border-keppel rounded mt-3 ;
 
         .widget__buy-amazon, .widget__buy-appstore {
             @apply grow text-[10px] text-center py-2 hover:bg-keppel/10 transition-all;

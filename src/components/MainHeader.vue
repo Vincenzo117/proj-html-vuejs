@@ -3,18 +3,22 @@
     <HeaderNavbar />
 
     <HeaderQuotes />
+
+    <HeaderLatestRelease />
   </header>
 </template>
 
 <script>
 import HeaderNavbar from "./HeaderNavbar.vue";
 import HeaderQuotes from "./HeaderQuotes";
+import HeaderLatestRelease from "./HeaderLatestRelease";
 
 export default {
   name: "MainHeader",
   components: {
     HeaderNavbar,
-    HeaderQuotes
+    HeaderQuotes,
+    HeaderLatestRelease
   },
 };
 </script>

@@ -24,5 +24,5 @@ export default {
 </script>
 
 <style lang="scss">
-
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
 </style>

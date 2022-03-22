@@ -11,13 +11,13 @@ import store from './store';
 import { library } from '@fortawesome/fontawesome-svg-core'
 
 /* import specific icons */
-import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
+import { faCartShopping, faArrowRight, faArrowLeft, faBars } from '@fortawesome/free-solid-svg-icons'
 
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* add icons to the library */
-library.add(faCartShopping)
+library.add(faCartShopping, faArrowRight, faArrowLeft, faBars)
 
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)

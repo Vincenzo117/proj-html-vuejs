@@ -28,7 +28,7 @@ export default {
 
   .widget__demos,
   .widget__on-sale {
-    @apply w-11 h-11 p-1 bg-white text-scorpion flex flex-col justify-end items-center rounded  text-[10px];
+    @apply w-11 h-11 p-1 bg-white text-scorpion flex flex-col justify-end items-center rounded  text-[10px] cursor-pointer  hover:outline outline-[3px] outline-blueLagoon transition-all;
   }
 
   .widget__demos {

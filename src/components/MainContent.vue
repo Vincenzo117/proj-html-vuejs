@@ -5,6 +5,8 @@
     <PlatformsBanner />
 
     <AudiobookSection />
+
+    <NewsletterSubscription />
   </main>
 </template>
 
@@ -12,13 +14,16 @@
 import MoreAboutSection from "./MoreAboutSection.vue";
 import AudiobookSection from "./AudiobookSection.vue";
 import PlatformsBanner from "./PlatformsBanner.vue";
+import NewsletterSubscription from "./NewsletterSubscription.vue";
+
 
 export default {
   name: "MainContent",
   components: {
     MoreAboutSection,
     AudiobookSection,
-    PlatformsBanner
+    PlatformsBanner,
+    NewsletterSubscription
   },
 };
 </script>

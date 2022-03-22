@@ -53,7 +53,7 @@ export default {
 
     .widget__buy-amazon,
     .widget__buy-appstore {
-      @apply grow text-[10px] text-center py-2 hover:bg-keppel/10 transition-all;
+      @apply grow text-[12px] text-center py-2 hover:bg-keppel/10 transition-all;
     }
 
     .widget__buy-amazon {

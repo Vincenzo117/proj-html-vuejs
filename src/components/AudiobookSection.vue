@@ -45,7 +45,7 @@ export default {
   @apply bg-no-repeat bg-cover relative;
 
   &:after {
-    @apply content-[''] absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b from-white/0 to-black  z-10;
+    @apply content-[''] absolute top-0 bottom-0 left-0 right-0 bg-black/30  z-10;
   }
 
   .wrapper {

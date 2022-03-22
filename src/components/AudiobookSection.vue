@@ -49,10 +49,9 @@ export default {
   }
 
   .wrapper {
-    @apply px-10 pt-10 md:px-64 2xl:container 2xl:px-64 flex items-center justify-center flex-wrap-reverse relative z-20;
+    @apply px-10 pt-10 md:px-44 2xl:container 2xl:px-64 flex items-center justify-center flex-wrap-reverse relative z-20;
 
-    .thumb,
-    .audiobook {
+    .thumb, .audiobook {
       @apply w-full lg:w-1/2 shrink-0;
     }
 

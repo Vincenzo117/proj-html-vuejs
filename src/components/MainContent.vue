@@ -8,6 +8,8 @@
 
     <CriticSection />
 
+    <UpcomingEventsSection />
+
     <NewsletterSubscription />
 
     <RecentArticlesSection />
@@ -21,6 +23,7 @@ import PlatformsBanner from "./PlatformsBanner.vue";
 import NewsletterSubscription from "./NewsletterSubscription.vue";
 import CriticSection from "./CriticSection.vue";
 import RecentArticlesSection from "./RecentArticlesSection.vue";
+import UpcomingEventsSection from "./UpcomingEventsSection.vue";
 
 
 export default {
@@ -31,7 +34,8 @@ export default {
     PlatformsBanner,
     NewsletterSubscription,
     CriticSection,
-    RecentArticlesSection
+    RecentArticlesSection,
+    UpcomingEventsSection
   },
 };
 </script>

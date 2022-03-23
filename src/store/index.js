@@ -9,6 +9,7 @@ import platforms from './modules/platforms.js';
 import criticTestimonials from './modules/criticTestimonials.js';
 import recentArticles from './modules/recentArticles.js';
 import upcomingEvents from './modules/upcomingEvents.js';
+import findOutMore from './modules/findOutMore.js';
 
 Vue.use(Vuex);
 
@@ -21,6 +22,7 @@ export default new Vuex.Store({
         platforms,
         criticTestimonials,
         recentArticles,
-        upcomingEvents
+        upcomingEvents,
+        findOutMore
     }
 })

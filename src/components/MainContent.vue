@@ -12,6 +12,8 @@
 
     <NewsletterSubscription />
 
+    <FindOutMoreSection />
+
     <RecentArticlesSection />
   </main>
 </template>
@@ -24,6 +26,7 @@ import NewsletterSubscription from "./NewsletterSubscription.vue";
 import CriticSection from "./CriticSection.vue";
 import RecentArticlesSection from "./RecentArticlesSection.vue";
 import UpcomingEventsSection from "./UpcomingEventsSection.vue";
+import FindOutMoreSection from "./FindOutMoreSection.vue";
 
 
 export default {
@@ -35,7 +38,8 @@ export default {
     NewsletterSubscription,
     CriticSection,
     RecentArticlesSection,
-    UpcomingEventsSection
+    UpcomingEventsSection,
+    FindOutMoreSection
   },
 };
 </script>

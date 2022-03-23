@@ -56,15 +56,15 @@ export default {
         @apply bg-white mb-8 lg:mb-0;
 
         .event-card__text {
-            @apply p-7 text-center;
+          @apply p-7 text-center;
 
-            .event-card__title {
-                @apply text-[15px] font-semibold pb-3 border-b border-osloGray/10 mb-3;
-            }
+          .event-card__title {
+            @apply text-[15px] font-semibold pb-3 border-b border-osloGray/10 mb-3;
+          }
 
-            .event-card__description {
-                @apply text-[12px] text-osloGray;
-            }
+          .event-card__description {
+            @apply text-[12px] text-osloGray;
+          }
         }
       }
     }

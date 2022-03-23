@@ -10,6 +10,7 @@ import criticTestimonials from './modules/criticTestimonials.js';
 import recentArticles from './modules/recentArticles.js';
 import upcomingEvents from './modules/upcomingEvents.js';
 import findOutMore from './modules/findOutMore.js';
+import footerLists from './modules/footerLists.js';
 
 Vue.use(Vuex);
 
@@ -23,6 +24,7 @@ export default new Vuex.Store({
         criticTestimonials,
         recentArticles,
         upcomingEvents,
-        findOutMore
+        findOutMore,
+        footerLists
     }
 })

@@ -1,6 +1,6 @@
 <template>
   <section class="critic-section">
-    <div class="wrapper">
+    <div class="section-wrapper">
       <div class="section__header">
         <div class="section__header-text">
           <h1 class="section__title">What The Critics Say</h1>
@@ -63,7 +63,7 @@ export default {
 
 <style lang="scss" scoped>
 .critic-section {
-  .wrapper {
+  .section-wrapper {
     @apply pt-8 pb-12 px-10 md:px-44 2xl:container 2xl:px-44;
 
     .section__header {
@@ -90,7 +90,7 @@ export default {
 
           .critic-card__wrapper {
             background-image: url("../assets/img/testimonial2-2x.jpg");
-            @apply pt-16 pb-20 px-14 bg-cover bg-center relative -z-20 text-white rounded-br-[60px] overflow-hidden;
+            @apply pt-16 pb-20 px-8 sm:px-14 bg-cover bg-center relative -z-20 text-white rounded-br-[60px] overflow-hidden;
 
             &:after {
               @apply content-[''] absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b from-white/0 to-black -z-10;
@@ -112,7 +112,7 @@ export default {
               }
 
               .critic-card__text {
-                @apply text-[14px] mt-6;
+                @apply text-[12px] sm:text-[14px] mt-6;
               }
             }
 
@@ -125,7 +125,7 @@ export default {
 
               .critic-card__author-name,
               .critic-card__company-name {
-                @apply text-[14px];
+                @apply text-[12px] sm:text-[14px];
               }
 
               .critic-card__company-name {
@@ -166,6 +166,10 @@ export default {
             .critic-card__company-name {
               @apply text-[14px];
             }
+
+            .critic-card__company-name {
+                @apply ml-1;
+              }
           }
         }
       }

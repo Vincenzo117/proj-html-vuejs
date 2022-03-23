@@ -9,6 +9,8 @@
     <CriticSection />
 
     <NewsletterSubscription />
+
+    <RecentArticlesSection />
   </main>
 </template>
 
@@ -18,6 +20,7 @@ import AudiobookSection from "./AudiobookSection.vue";
 import PlatformsBanner from "./PlatformsBanner.vue";
 import NewsletterSubscription from "./NewsletterSubscription.vue";
 import CriticSection from "./CriticSection.vue";
+import RecentArticlesSection from "./RecentArticlesSection.vue";
 
 
 export default {
@@ -27,7 +30,8 @@ export default {
     AudiobookSection,
     PlatformsBanner,
     NewsletterSubscription,
-    CriticSection
+    CriticSection,
+    RecentArticlesSection
   },
 };
 </script>

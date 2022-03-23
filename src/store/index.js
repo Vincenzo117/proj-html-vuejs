@@ -7,6 +7,7 @@ import latestRelease from './modules/latestRelease.js';
 import headerSale from './modules/headerSale.js';
 import platforms from './modules/platforms.js';
 import criticTestimonials from './modules/criticTestimonials.js';
+import recentArticles from './modules/recentArticles.js';
 
 Vue.use(Vuex);
 
@@ -17,6 +18,7 @@ export default new Vuex.Store({
         latestRelease,
         headerSale,
         platforms,
-        criticTestimonials
+        criticTestimonials,
+        recentArticles
     }
 })

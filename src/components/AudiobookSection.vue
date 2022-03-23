@@ -51,15 +51,15 @@ export default {
   .wrapper {
     @apply px-10 pt-10 md:px-44 2xl:container 2xl:px-64 flex items-center justify-center flex-wrap-reverse relative z-20;
 
-    .thumb, .audiobook {
-      @apply w-full lg:w-1/2 shrink-0;
+    .thumb {
+      @apply w-2/3 lg:w-1/2 shrink-0;
     }
 
     .audiobook {
-      @apply text-center flex flex-col items-center px-4 pb-4 mb-6 lg:mb-0;
+      @apply text-center flex flex-col items-center px-4 pb-4 mb-6 lg:mb-0 w-full lg:w-1/2 shrink-0;
 
       .audiobook__title {
-        @apply text-white text-[28px] font-serif font-extralight mb-3;
+        @apply text-white text-[30px] font-serif font-extralight mb-3;
       }
 
       .audiobook__subtitle {

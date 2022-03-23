@@ -9,7 +9,7 @@
           type="email"
           placeholder="Insert your email"
         />
-        <GreenButton text="Subscribe" />
+        <ActionButton text="Subscribe" color="green" />
       </div>
       <div class="section__description">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, esse
@@ -20,12 +20,12 @@
 </template>
 
 <script>
-import GreenButton from "./GreenButton.vue";
+import ActionButton from "./ActionButton.vue";
 
 export default {
   name: "NewsletterSubscription",
   components: {
-    GreenButton,
+    ActionButton,
   },
 };
 </script>

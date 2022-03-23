@@ -6,17 +6,17 @@
       clinical psychologist and the author of the multi-million copy bestseller
       "The story of my life".
     </p>
-    <GreenButton text="Meet the Author" />
+    <ActionButton text="Meet the Author" color="green" />
   </section>
 </template>
 
 <script>
-import GreenButton from "./GreenButton.vue";
+import ActionButton from "./ActionButton.vue";
 
 export default {
   name: "MoreAboutSection",
   components: {
-    GreenButton,
+    ActionButton,
   },
 };
 </script>

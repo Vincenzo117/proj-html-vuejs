@@ -6,6 +6,7 @@ import headerQuotes from './modules/headerQuotes.js';
 import latestRelease from './modules/latestRelease.js';
 import headerSale from './modules/headerSale.js';
 import platforms from './modules/platforms.js';
+import criticTestimonials from './modules/criticTestimonials.js';
 
 Vue.use(Vuex);
 
@@ -15,6 +16,7 @@ export default new Vuex.Store({
         headerQuotes,
         latestRelease,
         headerSale,
-        platforms
+        platforms,
+        criticTestimonials
     }
 })

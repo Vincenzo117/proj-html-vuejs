@@ -1,5 +1,4 @@
 const state = {
-    logoSrc: require('../../assets/img/author-logo-round.png'),
     aboutMe: {
         title: 'About Me',
         content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quia, eum, explicabo, molestias non alias officia incidunt cum eveniet enim id.'
@@ -78,7 +77,6 @@ const state = {
 }
 
 const getters = {
-    logoSrc: (state) => (state.logoSrc),
     aboutMe: (state) => (state.aboutMe),
     usefulLinksList: (state) => (state.usefulLinksList),
     contactInfo: (state) => (state.contactInfo)

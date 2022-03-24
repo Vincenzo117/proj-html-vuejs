@@ -150,9 +150,15 @@ export default {
           }
 
           .critic-card__body {
-            @apply pb-7 mb-3;
+            @apply pb-7 mb-3 relative;
             .critic-card__text {
               @apply text-[12px] text-osloGray;
+            }
+            &::after {
+              @apply content-[''] absolute -bottom-2 left-5;
+              border-style: solid;
+              border-width: 10px 8px 0 8px;
+              border-color: #f3ece3 transparent transparent transparent;
             }
           }
 
@@ -168,8 +174,8 @@ export default {
             }
 
             .critic-card__company-name {
-                @apply ml-1;
-              }
+              @apply ml-1;
+            }
           }
         }
       }

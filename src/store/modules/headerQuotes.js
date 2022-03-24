@@ -11,14 +11,14 @@ const state = {
             id: 2,
             title: 'Quote 2',
             text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quod iste, aliquam cumque inventore sequi!',
-            author: 'E che ne so',
-            active: false
+            author: 'Lorem Ipsum',
+            active: false 
         },
         {
             id: 3,
             title: 'Quote 3',
             text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quod iste, aliquam cumque inventore sequi!',
-            author: 'E che ne so',
+            author: 'Lorem Ipsum',
             active: false
         },
     ],

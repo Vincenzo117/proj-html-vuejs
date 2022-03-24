@@ -34,6 +34,9 @@ export default {
   methods: {
     ...mapActions(["prevQuote", "nextQuote"]),
   },
+  created() {
+    setInterval(this.nextQuote, 3000);
+  }
 };
 </script>
 
@@ -42,14 +45,18 @@ export default {
   @apply px-10 sm:px-32 pt-10 pb-20 relative z-20 2xl:container 2xl:px-32 transition-all;
 
   .quote-card {
-    @apply flex flex-col gap-5 w-full md:w-1/2 2xl:w-1/3 text-center md:text-left;
+    @apply flex flex-col gap-5 w-full md:w-1/2 2xl:w-1/2 text-center md:text-left;
     .quote__title {
       font-family: "Nothing You Could Do", cursive;
-      @apply text-saffron text-[38px] md:text-[42px] font-semibold;
+      @apply text-saffron text-[38px] md:text-[40px] lg:text-[48px] whitespace-nowrap font-semibold;
     }
 
     .quote__text {
-      @apply font-serif text-[26px] text-white font-semibold;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      @apply  font-serif h-[160px] text-[26px] text-white font-semibold;
     }
 
     .quote__author {

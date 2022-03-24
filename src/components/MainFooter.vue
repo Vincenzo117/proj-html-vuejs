@@ -105,7 +105,7 @@ export default {
     }
 
     .copyright-text {
-      @apply text-scorpion mt-9 text-center self-center w-full;
+      @apply text-[13px] text-scorpion mt-9 text-center self-center w-full;
 
       a {
         @apply text-white hover:text-saffron transition-all;

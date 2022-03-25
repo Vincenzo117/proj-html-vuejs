@@ -81,12 +81,17 @@ export default {
     }
 
     .section__body {
-      &::after {
-        @apply content-[''] clear-both block;
-      }
+      grid-template-columns: 3fr 2fr;
+      grid-template-rows: repeat(2,1fr);
+      justify-items: stretch;
+      align-items: stretch;
+      column-gap: 50px;
+      @apply lg:grid;
+      
       .critic-card {
         &.critic-card--big {
-          @apply w-full lg:w-3/5 lg:pr-6 mb-8 lg:mb-0 float-left;
+          grid-row: span 2 / span 2;
+          @apply mb-8 lg:mb-0;
 
           .critic-card__wrapper {
             background-image: url("../assets/img/testimonial2-2x.jpg");
@@ -136,7 +141,7 @@ export default {
         }
 
         &.critic-card--small {
-          @apply w-full sm:w-1/2 px-3 lg:w-2/5 float-right mb-6 text-center;
+          @apply mb-6 text-center;
 
           .critic-card__header,
           .critic-card__body {

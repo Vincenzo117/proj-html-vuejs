@@ -39,9 +39,8 @@
         </ul>
       </div>
       <div class="copyright-text">
-        © Copyright 2012-2022 | Made by
-        <a href="https://github.com/Vincenzo117">Vincenzo</a> | All rights
-        Reserved
+        Made by
+        <a href="https://github.com/Vincenzo117">Vincenzo</a> 
       </div>
     </div>
   </footer>
